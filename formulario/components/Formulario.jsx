@@ -32,7 +32,7 @@ const Formulario = ({mostrarMensaje}) =>{
             }
         }
         mostrarMensaje({
-            msg:'Registro realizado con exito',
+            msg:'Registro realizado con exito 😁',
             color: 'succes'
         })
         setNombre('')
