@@ -7,7 +7,7 @@ const Formulario = ({mostrarMensaje}) =>{
     const [confContrasaña, setConfConstraseña] = useState('')
 
     const validarForm = (e) => {
-        e.proventDefault()
+        e.preventDefault()
         if (nombre == '' || email == '' || contraseña == '' || confContrasaña == ''){
             mostrarMensaje ({
                 msg:'Debes llenar tods los campos',
@@ -33,7 +33,7 @@ const Formulario = ({mostrarMensaje}) =>{
         }
         mostrarMensaje({
             msg:'Registro realizado con exito 😁',
-            color: 'succes'
+            color: 'success'
         })
         setNombre('')
         setEmail('')
