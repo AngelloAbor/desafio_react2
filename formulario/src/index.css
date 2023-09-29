@@ -29,6 +29,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background: linear-gradient(to bottom left, rgb(217, 247, 137),rgb(118, 248, 179));
+  background-attachment: fixed;
 }
 
 h1 {
